@@ -1,0 +1,16 @@
+.vscode
+.idea
+*output
+backup
+*/__pycache__/*
+pretrained
+logs
+*.pyc
+*.ipynb
+*.out
+*.log
+*.pth
+*.pkl
+*.pt
+*.npy
+*debug*
