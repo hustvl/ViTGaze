@@ -10,7 +10,7 @@ from torch.cuda import device_count
 num_gpu = device_count()
 ins_per_iter = 4
 len_dataset = 4400
-num_epoch = 5
+num_epoch = 1
 # dataloader
 dataloader = dataloader.video_attention_target_video
 dataloader.train.batch_size = ins_per_iter // num_gpu
