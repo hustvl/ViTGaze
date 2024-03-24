@@ -15,6 +15,7 @@ else
     exit 1
 fi
 
+export CUDA_VISIBLE_DEVICES="0"
 echo "Evaluating with:"
 echo "config: $config_file"
 echo "checkpoint: $checkpoint"

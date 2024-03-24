@@ -1,17 +1,16 @@
 #!/bin/bash
 
-config_files=(
-    "configs\gazefollow.py"
-    "configs\gazefollow_518.py"
-)
+export CUDA_VISIBLE_DEVICES="0,1"
 
-log_file="train.log"
-> "$log_file"
+config_files=(
+    "configs/gazefollow.py"
+    "configs/gazefollow_518.py"
+)
 
 run_experiment() {
     local config="$1"
-    echo "Running experiment with config: $config" | tee >> "$log_file"
-    python -u tools/train.py --config-file "$config" --num-gpu 2 2>&1 | tee >> "$log_file"
+    echo "Running experiment with config: $config"
+    python -u tools/train.py --config-file "$config" --num-gpu 2
 }
 
 for config in "${config_files[@]}"
