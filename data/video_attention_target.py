@@ -138,6 +138,8 @@ class VideoAttentionTarget(Dataset):
         img = Image.open(osp.join(self.data_dir, path))
         img = img.convert("RGB")
         width, height = img.size
+        # Since we finetune from weights trained on GazeFollow,
+        # we don't incorporate the auxiliary task for VAT.
         if osp.exists(osp.join(self.head_dir, path)):
             head_mask = Image.open(osp.join(self.head_dir, path)).resize(
                 (width, height)

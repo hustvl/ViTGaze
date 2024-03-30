@@ -10,10 +10,6 @@ Yuehao Song<sup>1</sup> , Xinggang Wang<sup>1 :email:</sup> , Jingfeng Yao<sup>1
 
 ArXiv Preprint ([arXiv 2403.12778](https://arxiv.org/abs/2403.12778))
 
-<!-- ArXiv Preprint ([arXiv ](https://arxiv.org/abs/)) -->
-
-<!-- [openreview ICLR'23](https://openreview.net/forum?id=k7p_YAO7yE), accepted as **ICLR Spotlight** -->
-
 </div>
 
 #
@@ -58,6 +54,11 @@ Inspired by the remarkable success of pre-trained plain Vision Transformers (ViT
     <td>0.905</td>
   </tr>
 </table>
+
+## Getting Started
+- [Installation](docs/install.md)
+- [Train](docs/train.md)
+- [Eval](docs/eval.md)
 
 ## Acknowledgements
 ViTGaze is based on [detectron2](https://github.com/facebookresearch/detectron2). We use the efficient multi-head attention implemented in the [xFormers](https://github.com/facebookresearch/xformers) library.

@@ -226,6 +226,8 @@ class VideoAttentionTargetVideo(Dataset):
             width, height = img.size
             imsize = torch.FloatTensor([width, height])
             imsizes.append(imsize)
+            # Since we finetune from weights trained on GazeFollow,
+            # we don't incorporate the auxiliary task for VAT.
             if osp.exists(osp.join(self.head_dir, path)):
                 head_mask = Image.open(osp.join(self.head_dir, path)).resize(
                     (width, height)

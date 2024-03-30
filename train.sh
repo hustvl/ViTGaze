@@ -5,6 +5,7 @@ export CUDA_VISIBLE_DEVICES="0,1"
 config_files=(
     "configs/gazefollow.py"
     "configs/gazefollow_518.py"
+    "configs/videoattentiontarget.py"
 )
 
 run_experiment() {
