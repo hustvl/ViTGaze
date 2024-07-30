@@ -12,6 +12,6 @@ timm==0.9.12
 torch==2.2.0
 torchaudio==2.0.2
 torchvision==0.15.2
-tqdm==4.66.1
+tqdm==4.66.3
 xformers==0.0.21
 yacs==0.1.8
