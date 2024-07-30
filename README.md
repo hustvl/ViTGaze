@@ -21,7 +21,7 @@ ArXiv Preprint ([arXiv 2403.12778](https://arxiv.org/abs/2403.12778))
 
 
 ## Introduction
-<div align="center"><h5>Plain Vision Transformer could also do gaze following with simple ViTGaze framework!</h5></div>
+<div align="center"><h5>Plain Vision Transformer could also do gaze following with the simple ViTGaze framework!</h5></div>
 
 ![framework](assets/pipeline.png "framework")
 
@@ -55,6 +55,9 @@ Inspired by the remarkable success of pre-trained plain Vision Transformers (ViT
   </tr>
 </table>
 
+Corresponding checkpoints are released:
+- GazeFollow: [GoogleDrive](https://drive.google.com/file/d/164c4woGCmUI8UrM7GEKQrV1FbA3vGwP4/view?usp=drive_link)
+- VideoAttentionTarget: [GoogleDrive](https://drive.google.com/file/d/11_O4Jm5wsvQ8qfLLgTlrudqSNvvepsV0/view?usp=drive_link)
 ## Getting Started
 - [Installation](docs/install.md)
 - [Train](docs/train.md)
