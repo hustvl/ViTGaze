@@ -2,7 +2,7 @@ fvcore==0.1.5.post20221221
 numpy==1.26.2
 omegaconf==2.3.0
 opencv-python==4.8.1.78
-opencv-python-headless==4.6.0.66
+opencv-python-headless==4.8.1.78
 pandas==1.4.4
 Pillow==10.3.0
 scikit-image==0.22.0
