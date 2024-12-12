@@ -2,20 +2,22 @@
 <h1>ViTGaze 👀</h1>
 <h3>Gaze Following with Interaction Features in Vision Transformers</h3>
 
-Yuehao Song<sup>1</sup> , Xinggang Wang<sup>1 :email:</sup> , Jingfeng Yao<sup>1</sup> , Wenyu Liu<sup>1</sup> , Jinglin Zhang<sup>2</sup> , Xiangmin Xu<sup>3</sup>
+[Yuehao Song](https://scholar.google.com/citations?user=7sqkA-MAAAAJ)<sup>1</sup> , [Xinggang Wang](https://xwcv.github.io)<sup>1,✉️</sup> , [Jingfeng Yao](https://scholar.google.com/citations?user=4qc1qJ0AAAAJ)<sup>1</sup> , [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>1</sup> , Jinglin Zhang<sup>2</sup> , Xiangmin Xu<sup>3</sup>
 
-<sup>1</sup> Huazhong University of Science and Technology, <sup>2</sup> Shandong University, <sup>3</sup> South China University of Technology
+<sup>1</sup> Huazhong University of Science and Technology, <sup>2</sup> Shandong University, <sup>3</sup> South China University of Technology, <sup>✉️</sup> corresponding author
 
-(<sup>:email:</sup>) corresponding author.
+Accepted by Visual Intelligence ([Paper](https://link.springer.com/article/10.1007/s44267-024-00064-9))
 
-ArXiv Preprint ([arXiv 2403.12778](https://arxiv.org/abs/2403.12778))
+[![arxiv paper](https://img.shields.io/badge/arXiv-Preprint-red)](https://arxiv.org/abs/2403.12778) [![🤗HF models](https://img.shields.io/badge/HF%20🤗-Models-orange)](https://huggingface.co/yhsong/ViTGaze) [![PaperwithCode](https://img.shields.io/badge/Paperswithcode-blue)](https://huggingface.co/yhsong/ViTGaze)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vitgaze-gaze-following-with-interaction/gaze-target-estimation-on-gazefollow)](https://paperswithcode.com/sota/gaze-target-estimation-on-gazefollow?p=vitgaze-gaze-following-with-interaction)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vitgaze-gaze-following-with-interaction/gaze-target-estimation-on)](https://paperswithcode.com/sota/gaze-target-estimation-on?p=vitgaze-gaze-following-with-interaction)
 
 </div>
 
-#
 ![Demo0](assets/demo0.gif)
 ![Demo1](assets/demo1.gif)
 ### News
+* **`Nov. 21th, 2024`:** ViTGaze is accepted by Visual Intelligence! 🎉
 * **`Mar. 25th, 2024`:** We release an initial version of ViTGaze.
 * **`Mar. 19th, 2024`:** We released our paper on Arxiv. Code/Models are coming soon. Please stay tuned! ☕️
 
@@ -28,7 +30,7 @@ ArXiv Preprint ([arXiv 2403.12778](https://arxiv.org/abs/2403.12778))
 Inspired by the remarkable success of pre-trained plain Vision Transformers (ViTs), we introduce a novel single-modality gaze following framework, **ViTGaze**. In contrast to previous methods, it creates a brand new gaze following framework based mainly on powerful encoders (relative decoder parameter less than 1%). Our principal insight lies in that the inter-token interactions within self-attention can be transferred to interactions between humans and scenes. Our method achieves state-of-the-art (SOTA) performance among all single-modality methods (3.4% improvement on AUC, 5.1% improvement on AP) and very comparable performance against multi-modality methods with 59% number of parameters less.
 
 ## Results
-> Results from the [ViTGaze paper](https://arxiv.org/abs/2403.12778)
+> Results from the [ViTGaze paper](https://link.springer.com/article/10.1007/s44267-024-00064-9)
 
 ![comparison](assets/comparion.png "comparison")
 
@@ -69,10 +71,13 @@ ViTGaze is based on [detectron2](https://github.com/facebookresearch/detectron2)
 ## Citation
 If you find ViTGaze is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 ```bibtex
-@article{vitgaze,
-    title={ViTGaze: Gaze Following with Interaction Features in Vision Transformers},
-    author={Yuehao Song and Xinggang Wang and Jingfeng Yao and Wenyu Liu and Jinglin Zhang and Xiangmin Xu},
-    journal={arXiv preprint arXiv:2403.12778},
-    year={2024}
+@article{song2024vitgaze,
+  title   = {ViTGaze: Gaze Following with Interaction Features in Vision Transformers},
+  author  = {Song, Yuehao and Wang, Xinggang and Yao, Jingfeng and Liu, Wenyu and Zhang, Jinglin and Xu, Xiangmin},
+  journal = {Visual Intelligence},
+  volume  = {2},
+  number  = {31},
+  year    = {2024},
+  url     = {https://doi.org/10.1007/s44267-024-00064-9}
 }
 ```
