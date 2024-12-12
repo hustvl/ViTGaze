@@ -9,6 +9,7 @@
 Accepted by Visual Intelligence ([Paper](https://link.springer.com/article/10.1007/s44267-024-00064-9))
 
 [![arxiv paper](https://img.shields.io/badge/arXiv-Preprint-red)](https://arxiv.org/abs/2403.12778) [![🤗HF models](https://img.shields.io/badge/HF%20🤗-Models-orange)](https://huggingface.co/yhsong/ViTGaze) [![PaperwithCode](https://img.shields.io/badge/Paperswithcode-blue)](https://huggingface.co/yhsong/ViTGaze)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vitgaze-gaze-following-with-interaction/gaze-target-estimation-on-gazefollow)](https://paperswithcode.com/sota/gaze-target-estimation-on-gazefollow?p=vitgaze-gaze-following-with-interaction)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/vitgaze-gaze-following-with-interaction/gaze-target-estimation-on)](https://paperswithcode.com/sota/gaze-target-estimation-on?p=vitgaze-gaze-following-with-interaction)
 
