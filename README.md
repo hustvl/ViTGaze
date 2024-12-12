@@ -4,7 +4,9 @@
 
 [Yuehao Song](https://scholar.google.com/citations?user=7sqkA-MAAAAJ)<sup>1</sup> , [Xinggang Wang](https://xwcv.github.io)<sup>1,✉️</sup> , [Jingfeng Yao](https://scholar.google.com/citations?user=4qc1qJ0AAAAJ)<sup>1</sup> , [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>1</sup> , Jinglin Zhang<sup>2</sup> , Xiangmin Xu<sup>3</sup>
 
-<sup>1</sup> Huazhong University of Science and Technology, <sup>2</sup> Shandong University, <sup>3</sup> South China University of Technology, <sup>✉️</sup> corresponding author
+<sup>1</sup> Huazhong University of Science and Technology, <sup>2</sup> Shandong University, <sup>3</sup> South China University of Technology
+
+(<sup>✉️</sup> corresponding author)
 
 Accepted by Visual Intelligence ([Paper](https://link.springer.com/article/10.1007/s44267-024-00064-9))
 
