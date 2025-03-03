@@ -67,6 +67,7 @@ Corresponding checkpoints are released:
 - [Installation](docs/install.md)
 - [Train](docs/train.md)
 - [Eval](docs/eval.md)
+- [Visualization](docs/visualization.md)
 
 ## Acknowledgements
 ViTGaze is based on [detectron2](https://github.com/facebookresearch/detectron2). We use the efficient multi-head attention implemented in the [xFormers](https://github.com/facebookresearch/xformers) library.
